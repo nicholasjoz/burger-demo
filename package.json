@@ -1,0 +1,27 @@
+{
+  "name": "burger-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicholasjoz/burger-demo.git"
+  },
+  "author": "nick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicholasjoz/burger-demo/issues"
+  },
+  "homepage": "https://github.com/nicholasjoz/burger-demo#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0",
+    "sequelize": "^4.38.0",
+    "sequelize-cli": "^4.1.1"
+  }
+}
