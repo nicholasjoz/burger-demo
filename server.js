@@ -1,4 +1,3 @@
-// NOTE - THESE ARE NOT THE RIGHT FILES. I SEVERELY MESSED SOMETHING UP WITH MY Github pushes and need to talk to the TA's/teacher asap Monday. This is my work way before i would have considered the assignment complete, I apparently had two similarly named folders and messed things up with my push, and cant find the previous work. 
 
 // Server.js - This file is the initial starting point for the Node/Express server.
 
@@ -22,12 +21,17 @@ app.use(bodyParser.json());
 // Static directory to be served
 app.use(express.static("app/public"));
 
-// Routes
-// =============================================================
-require("./app/routes/api-routes.js")(app);
+var exphbs = require("express-handlebars");
+app.engine("handlebars", exphbs({defaultLayout: "main"}));
+app.set("view engine", "handlebars");
+
+var routes = require("./controllers/burger-controller.js");
+app.use(routes);
+
+
 
 // Here we introduce HTML routing to serve different HTML files
-require("./app/routes/html-routes.js")(app);
+/* require("./app/routes/html-routes.js")(app); */
 
 // Starts the server to begin listening
 // =============================================================

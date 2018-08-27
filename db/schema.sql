@@ -10,3 +10,4 @@ CREATE TABLE burgers
 	devour BOOLEAN DEFAULT false,
 	PRIMARY KEY (id)
 );
+ 
