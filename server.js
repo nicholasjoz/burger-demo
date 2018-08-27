@@ -1,3 +1,5 @@
+// NOTE - THESE ARE NOT THE RIGHT FILES. I SEVERELY MESSED SOMETHING UP WITH MY Github pushes and need to talk to the TA's/teacher asap Monday. This is my work way before i would have considered the assignment complete, I apparently had two similarly named folders and messed things up with my push, and cant find the previous work. 
+
 // Server.js - This file is the initial starting point for the Node/Express server.
 
 // Dependencies
